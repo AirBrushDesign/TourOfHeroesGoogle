@@ -1,0 +1,20 @@
+ul{
+  list-style-type: none;
+}
+ul li {
+  margin: 10px 0;
+}
+.hero_id{
+  background-color: rgb(149, 228, 236);
+  padding:2px;
+  border-radius: 5px;
+}
+.hero_name{
+  background-color: rgb(205, 232, 233);
+  padding:2px;
+  border-radius: 5px;
+}
+
+.selected .hero_name, .selected .hero_id{
+  background-color: rgb(39, 226, 35)
+}
